@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.txt:hover{
+    text-decoration: underline;
+    text-decoration-color: #ff6347; /* Tomato color */
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+    cursor: pointer;
+}
+
+.gfont{
+    font-family: "Playwrite NZ", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.btn{
+    border: 2px solid rgb(123, 131, 247);
+}
+.box{
+    height: 400px;
+    width: 400px;
+    /* border: 2px solid black; */
+    margin: 105px 157px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    padding: 5px;
+}
+
+.boy{
+    height: 173px;
+    width: 154px;
+    border-radius: 93px;
+    margin: 10px auto;
+}
+.tick{
+    height: 20px;
+    width: 20px;
+}
+.boxin{
+    margin-top: 20px;
+    display: flex;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+}
+.register{
+    width: 1000px;
+}
